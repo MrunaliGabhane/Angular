@@ -1,0 +1,9 @@
+<div>
+    <h2>Counter: {{ counter }}</h2>
+
+    <button (click)="increment()">Increment</button>
+
+    <button (click)="decrement()" [disabled]="counter <= 0">Decrement</button>
+    
+  </div>
+  
